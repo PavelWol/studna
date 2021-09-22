@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="bg"></div>
+    <Navigation />
     <div class="wrapper">
       <div class="info">
         <h1>Jsme otevřená křesťanská církev</h1>
@@ -22,16 +23,18 @@
 
 <script>
 import SocButton from '~/components/interactive/buttons/SocButton'
+import Navigation from '~/components/navigation/Navigation'
 
 export default {
   name: 'Hero',
   components: {
+    Navigation,
     SocButton
   }
 }
 </script>
 
-<style>
+<style scoped>
 
 .info {
   max-width: 1120px;
@@ -40,6 +43,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 96px;
 }
 
 .bg {
@@ -57,6 +61,10 @@ export default {
 
 .socials {
   display: flex;
+}
+
+.wrapper {
+  position: relative;
 }
 
 </style>

@@ -1,16 +1,20 @@
 <template>
   <div class="wrapper">
     <Hero class="hero" />
+    <CurrentInfo />
   </div>
 </template>
 
 <script>
 
 import Hero from '~/components/sections/Hero'
+import CurrentInfo from '~/components/sections/CurrentInfo'
+
 
 export default {
   components: {
     Hero,
+    CurrentInfo,
   },
 }
 </script>
@@ -21,10 +25,11 @@ body {
   margin: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   margin-top: 0;
   margin-bottom: 0;
   color: #ffffff;
+  font-family: Bebas Neue, sans-serif;
 }
 
 h1 {
@@ -45,11 +50,12 @@ p {
   font-size: 18px;
   line-height: 29px;
   color: #ffffff;
+  font-family: Marcellus, sans-serif;
+
 }
 
 .hero {
   position: relative;
-  padding-top: 120px;
   padding-bottom: 270px;
 }
 
