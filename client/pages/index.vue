@@ -6,6 +6,7 @@
     <Events class="events" />
     <Team class="team" />
     <WeBelieve class="we-believe" />
+    <Footer class="footer" />
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import Description from '~/components/sections/Description'
 import Events from '~/components/sections/Events'
 import Team from '~/components/sections/Team'
 import WeBelieve from '~/components/sections/WeBelieve'
+import Footer from '~/components/navigation/Footer'
 
 
 export default {
@@ -27,6 +29,7 @@ export default {
     Events,
     Team,
     WeBelieve,
+    Footer,
   },
 }
 </script>
@@ -82,6 +85,14 @@ p {
 .team {
   padding-top: 96px;
   padding-bottom: 220px;
+}
+
+.we-believe {
+  padding-bottom: 250px;
+}
+
+.footer {
+  padding-bottom: 56px;
 }
 
 </style>
