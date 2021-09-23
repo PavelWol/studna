@@ -20,4 +20,43 @@ export const state = () => ({
       adress: '🕒 Úterý, 17:00 <br /> 🗺️ Kořeného 24, Opava'
     }
   ],
+  teams: [
+    {
+      image: 'member_1.png',
+      name: 'Miroslav Wolinger',
+      position: 'Starší sboru'
+    },
+    {
+      image: 'member_1.png',
+      name: 'Miloš eliaš',
+      position: 'Starší sboru'
+    },
+    {
+      image: 'member_1.png',
+      name: 'David eliáš',
+      position: 'Vedoucí chval'
+    }
+  ],
+  believes: [
+    {
+      image: 'book_icon.svg',
+      heading: 'Bible',
+      text: 'Církev Studna Živé vody je společenstvím lidí, kteří chtějí svou víru žít naplno. Základem naší víry je Bible. Bible, a pouze Bible, je autoritativní Boží slovo. Jen ona je konečnou autoritou při určování všech pravd.'
+    },
+    {
+      image: 'rio_icon.svg',
+      heading: 'Ješíš kristus',
+      text: 'Na Zemi byl Ježíš 100% Bůh a 100% člověk. Je jediným mužem, který kdy žil bez hříchu. Jako Ježíšovi následovníci chceme žít podle největšího Božího přikázání: milovat Boha a lidi kolem sebe.'
+    },
+    {
+      image: 'three_icon.svg',
+      heading: 'Trojice',
+      text: 'Existuje jeden Bůh, věčně existující ve třech osobách: Otec, Syn a Duch svatý. Tito tři jsou si rovni.'
+    },
+    {
+      image: 'water-hand_icon.svg',
+      heading: 'Spása',
+      text: 'Jsme zachráněni milostí skrze víru v Ježíše Krista. Spása je dar od Boha, není výsledkem našich dobrých skutků ani žádného lidského úsilí.'
+    }
+  ]
 })

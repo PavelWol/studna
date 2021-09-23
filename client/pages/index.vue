@@ -4,6 +4,8 @@
     <CurrentInfo />
     <Description class="description" />
     <Events class="events" />
+    <Team class="team" />
+    <WeBelieve class="we-believe" />
   </div>
 </template>
 
@@ -13,6 +15,8 @@ import Hero from '~/components/sections/Hero'
 import CurrentInfo from '~/components/sections/CurrentInfo'
 import Description from '~/components/sections/Description'
 import Events from '~/components/sections/Events'
+import Team from '~/components/sections/Team'
+import WeBelieve from '~/components/sections/WeBelieve'
 
 
 export default {
@@ -21,6 +25,8 @@ export default {
     CurrentInfo,
     Description,
     Events,
+    Team,
+    WeBelieve,
   },
 }
 </script>
@@ -58,7 +64,6 @@ p {
   line-height: 29px;
   color: #ffffff;
   font-family: Marcellus, sans-serif;
-
 }
 
 .hero {
@@ -72,7 +77,11 @@ p {
 
 .events {
   padding-top: 140px;
-  padding-bottom: 200px;
+}
+
+.team {
+  padding-top: 96px;
+  padding-bottom: 220px;
 }
 
 </style>
