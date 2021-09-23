@@ -2,6 +2,8 @@
   <div class="wrapper">
     <Hero class="hero" />
     <CurrentInfo />
+    <Description class="description" />
+    <Events class="events" />
   </div>
 </template>
 
@@ -9,12 +11,16 @@
 
 import Hero from '~/components/sections/Hero'
 import CurrentInfo from '~/components/sections/CurrentInfo'
+import Description from '~/components/sections/Description'
+import Events from '~/components/sections/Events'
 
 
 export default {
   components: {
     Hero,
     CurrentInfo,
+    Description,
+    Events,
   },
 }
 </script>
@@ -30,6 +36,7 @@ h1, h2, h3, h4 {
   margin-bottom: 0;
   color: #ffffff;
   font-family: Bebas Neue, sans-serif;
+  font-weight: 500; /* ?? */
 }
 
 h1 {
@@ -57,6 +64,15 @@ p {
 .hero {
   position: relative;
   padding-bottom: 270px;
+}
+
+.description {
+  padding-top: 170px;
+}
+
+.events {
+  padding-top: 140px;
+  padding-bottom: 200px;
 }
 
 </style>

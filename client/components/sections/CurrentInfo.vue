@@ -33,6 +33,7 @@ export default {
 
 .info-bg {
   background: #A85846;
+  padding: 56px 0;
 }
 
 .info {
