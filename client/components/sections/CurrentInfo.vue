@@ -10,6 +10,7 @@
             🕒 10:00 - 11:30
           </p>
         </div>
+        <div class="mobile-line"></div>
         <div>
           <h4>Seminář strach</h4>
           <p>
@@ -42,6 +43,8 @@ export default {
   margin-right: auto;
   display: flex;
   justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 h3 {
@@ -73,6 +76,43 @@ p {
 
 .next-events div:first-child {
   margin-right: 112px;
+}
+
+@media (max-width: 950px) {
+  .info {
+    flex-direction: column;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  h3 br {
+    display: none;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .next-events {
+    margin-top: 24px;
+  }
+
+  .mobile-line {
+    width: 1px;
+    background: #5B2215;
+  }
+
+  .next-events div:first-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 950px) {
+  .mobile-line {
+    display: none;
+  }
 }
 
 </style>

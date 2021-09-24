@@ -58,6 +58,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .contact {
@@ -81,6 +83,17 @@ span {
 
 .copyright span:first-child {
   margin-right: 24px;
+}
+
+@media (max-width: 950px) {
+  .contact {
+    flex-direction: column;
+    margin-top: 32px;
+  }
+
+  span {
+    font-size: 14px;
+  }
 }
 
 </style>

@@ -67,4 +67,9 @@ svg {
   transform: translate(-50%, -50%);
 }
 
+@media (max-width: 950px) {
+  .footer-item {
+    padding-top: 16px;
+  }
+}
 </style>

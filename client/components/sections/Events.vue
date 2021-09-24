@@ -35,6 +35,14 @@ export default {
   display: flex;
   justify-content: space-between;
   position: relative;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (max-width: 950px) {
+  .events-wrapper {
+    flex-direction: column;
+  }
 }
 
 </style>

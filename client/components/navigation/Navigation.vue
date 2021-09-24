@@ -46,55 +46,21 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
-.navigation-items {
-  padding-left: 0;
+p {
+  font-family: Bebas Neue, sans-serif;
+  font-size: 24px;
+  text-align: right;
 }
 
-li {
-  list-style-type: none;
-  display: inline-block;
-  font-family: "Nunito", sans-serif;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 27px;
-  letter-spacing: 0.01em;
-  margin-left: 32px;
-  cursor: pointer;
-  position: relative;
-}
-
-li:last-of-type {
-  padding: 14px 32px;
-  border: 2px solid #FFFFFF;
-  border-radius: 0 0 0 24px;
-}
-
-.blur {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-bottom-left-radius: 16px;
-  border: 2px solid #ffffff;
-  background: transparent;
-  filter: blur(8px);
-  z-index: -1;
-  opacity: 0;
-  visibility: hidden;
-  transition: 250ms ease;
-}
-
-li:hover .blur {
-  opacity: 1;
-  visibility: visible;
-  transition: 250ms ease;
-}
-
-li:hover {
-  text-shadow: 1px 0 8px rgba(255, 255, 255, 1);
+@media (max-width: 950px) {
+  p {
+    font-size: 18px;
+    line-height: 19px;
+  }
 }
 
 </style>

@@ -35,6 +35,8 @@ export default {
   max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .believe-container {
@@ -47,6 +49,13 @@ export default {
 
 h2 {
   text-transform: uppercase;
+}
+
+@media (max-width: 950px) {
+  .believe-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 }
 
 </style>

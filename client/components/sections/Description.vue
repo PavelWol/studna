@@ -47,6 +47,8 @@
   justify-content: space-between;
   position: relative;
   z-index: 1;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .text {
@@ -75,6 +77,45 @@ p {
   bottom: 0;
   width: 100%;
   height: 125px;
+}
+
+@media (max-width: 950px) {
+  .description-wrapper {
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+  }
+
+  .big-img {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 44px;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .img-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(100%);
+    margin-right: 0;
+  }
+
+  .img-container img {
+    width: 132px;
+  }
+
+  .fake-bg {
+    height: 72px;
+  }
 }
 
 </style>

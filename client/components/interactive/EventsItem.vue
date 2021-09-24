@@ -71,7 +71,31 @@ span {
   display: block;
   max-width: 190px;
   margin-left: 24px;
+}
 
+@media (max-width: 950px) {
+  .events-item {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: inherit !important;
+    margin-top: 0 !important;
+  }
+
+  .events-item:last-child {
+    border-bottom: none;
+  }
+
+  .place-time {
+    margin-top: 32px;
+  }
+
+  p {
+    max-width: unset !important;
+  }
 }
 
 </style>

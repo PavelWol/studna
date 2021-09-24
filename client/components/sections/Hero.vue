@@ -5,7 +5,7 @@
     <div class="wrapper">
       <div class="info">
         <h1>Jsme otevřená křesťanská církev</h1>
-        <div>
+        <div class="container">
           <p>
             „Kdo se však napije vody, kterou mu dám já, nebude žíznit už nikdy.
             Voda, kterou mu dám, se v něm stane pramenem vody tryskající k věčnému životu.“
@@ -44,6 +44,22 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding-top: 96px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+h1 {
+  max-width: 500px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 43px;
+  color: rgba(255, 255, 255, .8);
+}
+
+.container {
+  max-width: 425px;
 }
 
 .bg {
@@ -61,10 +77,22 @@ export default {
 
 .socials {
   display: flex;
+  margin-top: 48px;
 }
 
 .wrapper {
   position: relative;
+}
+
+@media (max-width: 950px) {
+  .info {
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+  .container {
+    max-width: unset;
+  }
 }
 
 </style>

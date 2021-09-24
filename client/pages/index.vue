@@ -95,4 +95,22 @@ p {
   padding-bottom: 56px;
 }
 
+@media (max-width: 950px) {
+  h1 {
+    font-size: 64px !important;
+  }
+
+  h2 {
+    font-size: 48px !important;
+  }
+
+  h3 {
+    font-size: 32px !important;
+  }
+
+  h4 {
+    font-size: 18px !important;
+  }
+}
+
 </style>

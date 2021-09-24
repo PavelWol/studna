@@ -50,4 +50,26 @@ iframe {
   height: 518px;
 }
 
+@media (max-width: 950px) {
+  .map {
+    flex-direction: column;
+  }
+
+  .panel img {
+    width: 100%;
+  }
+
+  h3, p {
+    padding-left: 40px;
+  }
+
+  p {
+    padding-bottom: 40px;
+  }
+
+  iframe {
+    height: 240px;
+  }
+}
+
 </style>

@@ -14,7 +14,7 @@
       <path d="M16.872 6.44798C17.601 6.44798 18.192 5.857 18.192 5.12798C18.192 4.39897 17.601 3.80798 16.872 3.80798C16.143 3.80798 15.552 4.39897 15.552 5.12798C15.552 5.857 16.143 6.44798 16.872 6.44798Z" fill="white"/>
     </svg>
 
-    <span>{{ title }}</span>
+    {{ title }}
   </a>
 </template>
 
@@ -50,11 +50,30 @@ svg {
 
 a {
   text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: .2px;
 }
 
 span {
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media (max-width: 950px) {
+  a {
+    font-size: 14px;
+  }
+
+  .soc {
+    padding: 16px 20px;
+  }
+
+  svg {
+    width: 20px;
+  }
 }
 
 </style>
