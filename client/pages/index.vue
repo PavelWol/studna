@@ -1,12 +1,12 @@
 <template>
   <div class="wrapper">
     <Hero class="hero" />
-    <CurrentInfo />
-    <Description class="description" />
-    <Events class="events" />
-    <Team class="team" />
-    <WeBelieve class="we-believe" />
-    <Footer class="footer" />
+    <CurrentInfo id="aktuality" />
+    <Description id="onas" class="description" />
+    <Events id="codelame" class="events" />
+    <Team id="nastym" class="team" />
+    <WeBelieve id="verime" class="we-believe" />
+    <Footer id="kontakt" class="footer" />
   </div>
 </template>
 
@@ -110,6 +110,26 @@ p {
 
   h4 {
     font-size: 18px !important;
+  }
+
+  .hero {
+    padding-bottom: 90px;
+  }
+
+  .description {
+    padding-top: 130px;
+  }
+
+  .events {
+    padding-top: 70px;
+  }
+
+  .team {
+    padding-bottom: 112px;
+  }
+
+  .we-believe {
+    padding-bottom: 128px;
   }
 }
 

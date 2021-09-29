@@ -1,4 +1,30 @@
 export const state = () => ({
+  navigationItems: [
+    {
+      name: 'aktuality',
+      anchor: 'aktuality'
+    },
+    {
+      name: 'o nás',
+      anchor: 'onas'
+    },
+    {
+      name: 'co děláme',
+      anchor: 'codelame'
+    },
+    {
+      name: 'náš tým',
+      anchor: 'nastym'
+    },
+    {
+      name: 'v co věříme',
+      anchor: 'verime'
+    },
+    {
+      name: 'kontakt',
+      anchor: 'kontakt'
+    },
+  ],
   events: [
     {
       image: 'house_icon.png',

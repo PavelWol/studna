@@ -68,7 +68,7 @@ span {
   }
 
   .soc {
-    padding: 16px 20px;
+    padding: 16px 17px;
   }
 
   svg {

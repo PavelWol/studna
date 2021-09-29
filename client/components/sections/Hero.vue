@@ -88,10 +88,43 @@ p {
   .info {
     flex-direction: column;
     max-width: 500px;
+    padding-top: 40px;
+  }
+
+  h1 {
+    max-width: 273px;
+    margin-right: auto;
+    line-height: 67px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .bg {
+    background-size: 200% 100%;
+    background-position: inherit;
   }
 
   .container {
     max-width: unset;
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  .socials {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 350px) {
+  .socials {
+    flex-wrap: wrap;
+  }
+
+  .socials ::v-deep .soc:last-child {
+    margin-top: 8px;
   }
 }
 
