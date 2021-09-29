@@ -1,16 +1,18 @@
 <template>
-  <div :class="{'navigation-menu-wrapper': true, 'navigation-menu-opened': state}">
-    <div class="navigation-menu-content-wrapper">
-      <Close />
-      <ul class="navigation-items">
-        <li v-for="nav in navigationItems" :key="nav.name" @click="scrollInto(nav.anchor)">
-          <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-           <path d="M1 6L17 6" stroke="#5B2215" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
-            <path d="M17 0L24 6L17 12V0Z" fill="#5B2215"/>
-          </svg>
-          {{ nav.name }}
-        </li>
-      </ul>
+  <div :class="{'overlay': state }">
+    <div :class="{'navigation-menu-wrapper': true, 'navigation-menu-opened': state}">
+      <div class="navigation-menu-content-wrapper">
+        <Close />
+        <ul class="navigation-items">
+          <li v-for="nav in navigationItems" :key="nav.name" @click="scrollInto(nav.anchor)">
+            <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M1 6L17 6" stroke="#5B2215" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+              <path d="M17 0L24 6L17 12V0Z" fill="#5B2215"/>
+            </svg>
+            {{ nav.name }}
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -63,6 +65,17 @@ export default {
   box-shadow: 0 2px 0 0 #5B2215;
 }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  background: rgba(0, 0, 0, .3);
+  transition: 250ms ease;
+}
+
 .navigation-items {
   display: flex;
   flex-direction: column;
@@ -79,6 +92,7 @@ export default {
   top: 48px;
   transform: translateX(-50%);
   text-align: right;
+  z-index: 6;
 }
 
 ul {

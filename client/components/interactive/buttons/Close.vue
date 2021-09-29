@@ -34,7 +34,6 @@ export default {
       }
       /* eslint no-undef: "error" */
       $nuxt.$emit('toggle-navigation-menu', this.state)
-      $nuxt.$emit('hamburger-menu-opened', this.state)
     }
   }
 }
@@ -52,8 +51,6 @@ button {
   z-index: 7;
   background: transparent;
   padding: 0;
-  padding-right: 24px;
-  box-sizing: content-box;
 }
 
 svg {
@@ -74,6 +71,11 @@ svg rect {
 }
 
 @media( max-width: 950px) {
+  button {
+    padding-right: 24px;
+    box-sizing: content-box;
+  }
+
   .close svg rect {
     width: 20px;
   }
