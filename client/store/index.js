@@ -49,16 +49,16 @@ export const state = () => ({
   teams: [
     {
       image: 'member_1.png',
-      name: 'Miroslav Wolinger',
-      position: 'Starší sboru'
-    },
-    {
-      image: 'member_1.png',
       name: 'Miloš eliaš',
       position: 'Starší sboru'
     },
     {
-      image: 'member_1.png',
+      image: 'member_2.png',
+      name: 'Miroslav Wolinger',
+      position: 'Starší sboru'
+    },
+    {
+      image: 'member_3.png',
       name: 'David eliáš',
       position: 'Vedoucí chval'
     }

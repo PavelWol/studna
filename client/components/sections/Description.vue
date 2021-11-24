@@ -9,7 +9,7 @@
           Rádi se osobně setkáme s každým, kdo bude mít zájem.
         </p>
         <div class="img-container">
-          <img class="signature" src="~/assets/images/eliasovi.svg" alt="">
+          <img class="signature" src="~/assets/images/studna_heart.svg" alt="">
         </div>
       </div>
       <img class="big-img" src="~/assets/images/description_img.png" alt="">
@@ -63,7 +63,7 @@ p {
 
 .img-container {
   text-align: right;
-  margin-right: 40px;
+  margin-top: 16px;
 }
 
 .big-img {

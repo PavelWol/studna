@@ -6,8 +6,8 @@
         <div>
           <h4>příští bohoslužba</h4>
           <p>
-            📅 15. 8. 2021 <br />
-            🕒 10:00 - 11:30
+            📅 vždy v neděli <br />
+            🕒 9:30 - 11:00
           </p>
         </div>
         <div class="mobile-line"></div>
