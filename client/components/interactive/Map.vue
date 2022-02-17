@@ -34,6 +34,7 @@ export default {
 
 .panel {
   background: #0C1F2E;
+  padding-top: 24px;
 }
 
 h3 {

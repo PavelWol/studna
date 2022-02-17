@@ -37,12 +37,12 @@ export const state = () => ({
       image: 'mic_icon.png',
       heading: 'Semináře',
       description: 'Několikrát do roka organizujeme semináře speciálně zaměřené na oblasti, ve kterých bývají lidé nejvíce zraněni.',
-      adress: '🕒 Sobota, 14:00 <br /> 🗺️ Minoritský klášter Opava'
+      adress: 'Momentálně není žádný seminář'
     },
     {
       image: 'hands_icon.png',
       heading: 'Skupinky',
-      description: 'Diskuse nad Biblí v rodinném prostředí. Lidé se mouhou sdílet, říct své zkušenosti s Bohem, ale také co je trápí a v čem bojují.',
+      description: 'Diskuze nad Biblí v rodinném prostředí. Lidé se mouhou sdílet, říct své zkušenosti s Bohem, ale také co je trápí a v čem bojují.',
       adress: '🕒 Úterý, 17:00 <br /> 🗺️ Kořeného 24, Opava'
     }
   ],

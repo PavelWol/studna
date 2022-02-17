@@ -38,6 +38,7 @@ p {
   color: rgba(255, 255, 255, .8);
   margin-top: 24px;
   line-height: 32px;
+  max-width: 400px;
 }
 
 @media (max-width: 950px) {

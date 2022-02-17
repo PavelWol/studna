@@ -75,7 +75,6 @@ footer {
 
 span {
   font-family: Bebas Neue, sans-serif;
-  font-weight: 400;
   font-size: 16px;
   color: rgba(255, 255, 255, .32);
   letter-spacing: 0.4px;

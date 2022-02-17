@@ -12,10 +12,14 @@
         </div>
         <div class="mobile-line"></div>
         <div>
-          <h4>Seminář strach</h4>
+          <h4>
+            Každá 1. neděle v měsíci je bohoslužba
+            <br/>
+            ve společenství Tělo Kristovo
+          </h4>
           <p>
-            📅 24. 11. 2021 <br />
-            🕒 12:00 - 18:00
+            📍 Vrchní 85/28 <br />
+            🕒 11:00
           </p>
         </div>
       </div>
@@ -97,11 +101,13 @@ p {
 
   .next-events {
     margin-top: 24px;
+    flex-direction: column;
   }
 
   .mobile-line {
     width: 1px;
     background: #5B2215;
+    margin: 8px 0;
   }
 
   .next-events div:first-child {

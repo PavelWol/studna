@@ -43,6 +43,7 @@ img {
 h3 {
   color: #638C9F;
   margin-top: 32px;
+  white-space: nowrap;
 }
 
 p {
