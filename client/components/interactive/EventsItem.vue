@@ -73,6 +73,10 @@ span {
   margin-left: 24px;
 }
 
+.events-item:nth-child(2) span {
+  color: #ffffff;
+}
+
 @media (max-width: 950px) {
   .events-item {
     border-right: none;

@@ -6,12 +6,12 @@
       <div class="info">
         <h1>Jsme otevřená křesťanská církev</h1>
         <div class="container">
-          <p>
+          <p style="display: none">
             „Kdo se však napije vody, kterou mu dám já, nebude žíznit už nikdy.
             Voda, kterou mu dám, se v něm stane pramenem vody tryskající k věčnému životu.“
           </p>
           <div class="socials">
-            <SocButton :title="'AKTUALITY'" :icon="'facebook'" />
+            <SocButton :title="'AKTUALITY'" :icon="'facebook'" style="cursor: pointer;" @click.native="openWebsite('https://www.facebook.com/studnaspkp')" />
             <SocButton :title="'kázání'" :icon="'youtube'" />
             <SocButton :title="'Fotky'" :icon="'instagram'" />
           </div>
@@ -30,6 +30,11 @@ export default {
   components: {
     Navigation,
     SocButton
+  },
+  methods: {
+    openWebsite (url) {
+      window.open(url, '_blank')
+    },
   }
 }
 </script>
@@ -46,10 +51,12 @@ export default {
   padding-top: 96px;
   padding-left: 24px;
   padding-right: 24px;
+  text-align: center;
+  flex-direction: column;
 }
 
 h1 {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 p {
@@ -93,7 +100,6 @@ p {
 
   h1 {
     max-width: 273px;
-    margin-right: auto;
     line-height: 67px;
   }
 
@@ -115,6 +121,7 @@ p {
 
   .socials {
     margin-top: 80px;
+    justify-content: center;
   }
 }
 

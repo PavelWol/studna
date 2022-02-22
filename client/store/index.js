@@ -37,7 +37,8 @@ export const state = () => ({
       image: 'mic_icon.png',
       heading: 'Semináře',
       description: 'Několikrát do roka organizujeme semináře speciálně zaměřené na oblasti, ve kterých bývají lidé nejvíce zraněni.',
-      adress: 'Momentálně není žádný seminář'
+      adress: '🕒 5. 3. 2022 , 14:00 <br /> 🗺️ Křesťanské společenství Jeseník,',
+      subText: 'Husova 191/2'
     },
     {
       image: 'hands_icon.png',

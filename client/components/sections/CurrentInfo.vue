@@ -10,7 +10,13 @@
             🕒 9:30 - 11:00
           </p>
         </div>
-        <div class="mobile-line"></div>
+        <div>
+          <h4>příští seminář</h4>
+          <p>
+            📅 5. 3. 2022 <br />
+            🕒 14:00 - 17:00
+          </p>
+        </div>
         <div>
           <h4>
             Každá 1. neděle v měsíci je bohoslužba
@@ -78,8 +84,8 @@ p {
   justify-content: space-between;
 }
 
-.next-events div:first-child {
-  margin-right: 112px;
+.next-events div:not(:last-child) {
+  margin-right: 64px;
 }
 
 @media (max-width: 950px) {
@@ -104,14 +110,9 @@ p {
     flex-direction: column;
   }
 
-  .mobile-line {
-    width: 1px;
-    background: #5B2215;
-    margin: 8px 0;
-  }
-
-  .next-events div:first-child {
+  .next-events div:not(:last-child) {
     margin-right: 0;
+    margin-bottom: 16px;
   }
 }
 
