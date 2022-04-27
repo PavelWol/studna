@@ -31,20 +31,22 @@ export const state = () => ({
       heading: 'Bohoslužby',
       description: 'Kdo hledá opravdové řešení svých trápení nebo pravdivé odpovědi na základní otázky po smyslu života, je srdečně zván.',
       adress: '🕒 Neděle, 9:30 <br /> 🗺️ Masarykova 39, Opava',
-      subText: 'boční vchod Minoritského kláštera ve 2. patře'
+      subText: 'boční vchod Minoritského kláštera ve 2. patře',
+      href: ''
     },
     {
       image: 'mic_icon.png',
       heading: 'Semináře',
       description: 'Několikrát do roka organizujeme semináře speciálně zaměřené na oblasti, ve kterých bývají lidé nejvíce zraněni.',
-      adress: '🕒 7. 5. 2022 , 11:00 <br /> 🗺️ uzdravení manželství a rodiny,',
-      subText: 'Minoritský klášter Opava, velký sál - 1. patro'
+      adress: '🕒 7. 5. 2022 , 11:00 <br /> 🗺️ Minoritský klášter, velký sál - 1. patro, Masarykova 39, Opava',
+      href: 'https://www.facebook.com/studnaspkp',
     },
     {
       image: 'hands_icon.png',
       heading: 'Skupinky',
       description: 'Diskuze nad Biblí v rodinném prostředí. Lidé se mouhou sdílet, říct své zkušenosti s Bohem, ale také co je trápí a v čem bojují.',
-      adress: '🕒 Úterý, 17:00 <br /> 🗺️ Kořeného 24, Opava'
+      adress: '🕒 Úterý, 17:00 <br /> 🗺️ Kořeného 24, Opava',
+      href: ''
     }
   ],
   teams: [

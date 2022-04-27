@@ -2,6 +2,10 @@
   <div class="info-bg">
     <div class="info">
       <h3>Aktuální <br /> informace</h3>
+      <svg class="arrow" width="265" height="12" viewBox="0 0 265 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 6L258 6.00002" stroke="#5B2215" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+        <path d="M258 0L265 6L258 12V0Z" fill="#5B2215"/>
+      </svg>
       <div class="next-events">
         <div>
           <h4>příští bohoslužba</h4>
@@ -10,22 +14,11 @@
             🕒 9:30 - 11:00
           </p>
         </div>
-        <div>
-          <h4>příští seminář</h4>
+        <div class="seminar">
+          <a href="https://www.facebook.com/studnaspkp">Seminář uzdravení manželství a rodiny</a>
           <p>
             📅 7. 5. 2022 <br />
             🕒 11:00 - 18:00
-          </p>
-        </div>
-        <div>
-          <h4>
-            Každá 1. neděle v měsíci je bohoslužba
-            <br/>
-            ve společenství Tělo Kristovo
-          </h4>
-          <p>
-            📍 Vrchní 85/28 <br />
-            🕒 11:00
           </p>
         </div>
       </div>
@@ -57,6 +50,10 @@ export default {
   padding-right: 24px;
 }
 
+.arrow {
+  align-self: center;
+}
+
 h3 {
   font-weight: bold;
   font-size: 40px;
@@ -64,7 +61,8 @@ h3 {
   color: #5B2215;
 }
 
-h4 {
+h4, a {
+  font-family: Bebas Neue, sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 104%;
@@ -79,6 +77,10 @@ p {
   margin-top: 8px;
 }
 
+.seminar {
+  max-width: 164px;
+}
+
 .next-events {
   display: flex;
   justify-content: space-between;
@@ -91,6 +93,14 @@ p {
 @media (max-width: 950px) {
   .info {
     flex-direction: column;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  a {
+    font-size: 18px !important;
   }
 
   h3 {

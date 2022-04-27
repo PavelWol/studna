@@ -1,7 +1,8 @@
 <template>
   <div class="events-item">
     <img :src="image" alt="">
-    <h3>{{ heading }}</h3>
+    <a v-if="href" :href="href">{{ heading }}</a>
+    <h3 v-else>{{ heading }}</h3>
     <p>{{ description }}</p>
     <p class="place-time" v-html="adress"></p>
     <span v-if="subText" class="sub-text">{{ subText }}</span>
@@ -11,7 +12,7 @@
 <script>
 export default {
   name: 'EventsItem',
-  props: ['image', 'heading', 'description', 'adress', 'subText']
+  props: ['image', 'href', 'heading', 'description', 'adress', 'subText']
 }
 </script>
 
@@ -41,10 +42,13 @@ img {
   width: 36px;
 }
 
-h3 {
+h3, a {
+  font-family: Bebas Neue, sans-serif;
+  font-size: 40px;
   margin-top: 24px;
   text-transform: uppercase;
   color: #638C9F;
+  display: block;
 }
 
 p {

@@ -1,7 +1,7 @@
 <template>
   <div class="events-bg">
     <div class="events-wrapper">
-      <EventsItem v-for="item in events" :key="item.heading" :image="require('/assets/images/' + item.image)" :heading="item.heading" :description="item.description" :adress="item.adress" :subText="item.subText" />
+      <EventsItem v-for="item in events" :key="item.heading" :image="require('/assets/images/' + item.image)" :href="item.href" :heading="item.heading" :description="item.description" :adress="item.adress" :subText="item.subText" />
     </div>
   </div>
 </template>
