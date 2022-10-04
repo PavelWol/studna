@@ -32,6 +32,7 @@ export const state = () => ({
       description: 'Kdo hledá opravdové řešení svých trápení nebo pravdivé odpovědi na základní otázky po smyslu života, je srdečně zván.',
       adress: '🕒 Neděle, 9:30 <br /> 🗺️ Masarykova 39, Opava',
       subText: 'boční vchod Minoritského kláštera ve 2. patře',
+      subsubText: 'ZMĚNA MÍSTA SCHÁZENÍ od 20. 10. 2022 (adresa bude upřesněna co nejdříve)',
       href: ''
     },
     {

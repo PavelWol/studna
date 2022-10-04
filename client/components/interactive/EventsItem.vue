@@ -6,13 +6,14 @@
     <p>{{ description }}</p>
     <p class="place-time" v-html="adress"></p>
     <span v-if="subText" class="sub-text">{{ subText }}</span>
+    <span v-if="subsubText" class="subsub-text">{{ subsubText }}</span>
   </div>
 </template>
 
 <script>
 export default {
   name: 'EventsItem',
-  props: ['image', 'href', 'heading', 'description', 'adress', 'subText']
+  props: ['image', 'href', 'heading', 'description', 'adress', 'subText', 'subsubText']
 }
 </script>
 
@@ -67,14 +68,19 @@ p:not(.place-time) {
   color: #ffffff;
 }
 
-span {
+span.sub-text, span.subsub-text {
   font-family: Marcellus, sans-serif;
   font-size: 16px;
   line-height: 29px;
   color: rgba(255, 255, 255, .8);
   display: block;
-  max-width: 190px;
+  max-width: 230px;
   margin-left: 24px;
+}
+
+span.subsub-text {
+  color: #ffffff;
+  margin-top: 16px;
 }
 
 @media (max-width: 950px) {

@@ -15,10 +15,10 @@
           </p>
         </div>
         <div class="seminar">
-          <a href="https://www.facebook.com/studnaspkp">Seminář uzdravení manželství a rodiny</a>
+          <h4>Aktuálně není žádný seminář</h4>
           <p>
-            📅 7. 5. 2022 <br />
-            🕒 11:00 - 18:00
+            📅 / <br />
+            🕒 /
           </p>
         </div>
       </div>
