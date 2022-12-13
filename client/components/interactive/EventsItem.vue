@@ -37,6 +37,7 @@ export default {
 
 .events-item:nth-child(2) {
   margin-top: 140px;
+  width: 400px;
 }
 
 img {
@@ -93,6 +94,14 @@ span.subsub-text {
     padding-top: 32px;
     height: inherit !important;
     margin-top: 0 !important;
+  }
+
+  .events-item:nth-child(2) {
+    width: unset;
+  }
+
+  a {
+    font-size: 32px;
   }
 
   .events-item:last-child {

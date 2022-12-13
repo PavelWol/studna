@@ -11,7 +11,7 @@
           <h4>příští bohoslužba</h4>
           <p>
             📅 vždy v neděli <br />
-            🕒 9:30 - 11:00
+            🕒 od 9:30
           </p>
         </div>
         <div class="seminar">

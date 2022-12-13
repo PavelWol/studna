@@ -9,14 +9,13 @@
           <b>ŽIVÉ VODY</b>
         </h3>
         <p>
-          Masarykova tř. 39
+          Popská 3
           <br />
           746 01 Opava
         </p>
-        <p class="sub-text">ZMĚNA MÍSTA SCHÁZENÍ <br> od 20. 10. 2022 (adresa bude upřesněna co nejdříve)</p>
       </div>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1143.4917453276037!2d17.902816931736062!3d49.936324256952425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDU2JzEwLjEiTiAxN8KwNTQnMTMuMiJF!5e0!3m2!1scs!2scz!4v1632430535241!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d970.70838208156!2d17.900746447265234!3d49.937354936951685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713d81362e6f559%3A0x4191feaeef267d5c!2sPopsk%C3%A1%203%2C%20746%2001%20Opava!5e0!3m2!1scs!2scz!4v1670918611954!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </template>
 
@@ -43,14 +42,7 @@ export default {
 
 .map-text {
   position: absolute;
-  bottom: 32px;
-}
-
-.sub-text {
-  font-size: 16px;
-  line-height: 180%;
-  color: #FFFFFF;
-  max-width: 310px;
+  bottom: 56px;
 }
 
 h3 {
@@ -60,6 +52,7 @@ h3 {
 p {
   margin-top: 16px;
   padding-left: 56px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 iframe {
@@ -74,7 +67,7 @@ iframe {
 
   .map-text {
     position: relative;
-    bottom: unset;
+    bottom: 40px;
   }
 
   p:first-of-type {
